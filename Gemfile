@@ -61,6 +61,14 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  # 
+  gem 'rubocop'
+  gem 'rubocop-minitest'
+  gem 'rubocop-packaging'
+  gem 'rubocop-performance'
+  gem 'rubocop-rails'
+  gem 'rubocop-md'
+  gem 'htmlbeautifier'
 end
 
 group :test do
